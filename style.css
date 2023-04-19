@@ -1,38 +1,37 @@
+html,
 body {
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  max-width: 1440px;
+  min-width: 375px;
+
   font-family: "Hanken Grotesk", sans-serif;
 }
 .container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 560px;
   position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 0;
-  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
 }
 .left {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 15px;
   box-shadow: 10px 5px 30px hsl(221, 100%, 96%);
-  height: 300px;
-  width: 200px;
+  width: 150%;
   display: grid;
   place-items: center;
-  padding: 36px;
+  width: 100%;
+  margin-right: -10px;
   position: relative;
-  margin-right: -30px;
+  padding: 36px;
   text-align: center;
 }
 p {
   font-size: 14px;
   color: hsl(241, 100%, 89%);
   font-weight: 500;
- 
 }
 .result {
   display: grid;
@@ -58,33 +57,24 @@ h2 {
   color: hsl(0, 0%, 100%);
   margin-bottom: 0px;
   font-weight: 800;
-  
- 
 }
-.container2 {
-  align-items: baseline;
-}
+
 .right {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   box-shadow: 10px 5px 30px hsl(221, 100%, 96%);
-  height: 300px;
-  width: 250px;
+  width: 100%;
   display: grid;
   place-items: center;
-  padding: 36px;
+  padding-left: 36px;
+  padding-right: 29px;
   place-content: center;
-padding-right:8px ;
- 
-
-  
-
 }
 h3 {
   color: hsl(224, 30%, 27%);
   margin-left: -120px;
   margin-top: 4px;
-  margin-bottom:8px;
+  margin-bottom: 8px;
   font-size: 20px;
 }
 
@@ -113,15 +103,13 @@ h3 {
 .reaction {
   font-weight: 700;
   display: flex;
-  width: 190px;
   height: 40px;
   border-radius: 7px;
   align-items: center;
-  padding-left:10px;
-  padding-right:10px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 12px;
   font-size: 12px;
-
 }
 
 .btn {
@@ -132,20 +120,18 @@ h3 {
   height: 38px;
   border-radius: 27px;
   border: none;
-  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  background-color: hsl(224, 30%, 27%);
   margin-top: 20px;
 }
 .btn:hover {
-  background-image: none;
-  background-color: hsl(224, 30%, 27%);
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  left: 0;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);

@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+.left {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 15px;
+  box-shadow: 10px 5px 30px hsl(221, 100%, 96%);
+  height: 300px;
+  width: 200px;
+  display: grid;
+  place-items: center;
+  padding: 36px;
+  position: relative;
+  margin-right: -30px;
+  text-align: center;
+}
+p {
+  font-size: 14px;
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+ 
+}
+.result {
+  display: grid;
+  place-content: center;
+  font-size: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+}
+h1 {
+  font-weight: 500;
+  font-size: 18px;
+  color: hsl(241, 100%, 89%);
+}
+h2 {
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0px;
+  font-weight: 800;
+  
+ 
+}
+.container2 {
+  align-items: baseline;
+}
+.right {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 10px 5px 30px hsl(221, 100%, 96%);
+  height: 300px;
+  width: 250px;
+  display: grid;
+  place-items: center;
+  padding: 36px;
+  place-content: center;
+padding-right:8px ;
+ 
+
+  
+
+}
+h3 {
+  color: hsl(224, 30%, 27%);
+  margin-left: -120px;
+  margin-top: 4px;
+  margin-bottom:8px;
+  font-size: 20px;
+}
+
+.reaction {
+  color: hsl(0, 100%, 67%);
+
+  background-color: hsla(0, 100%, 67%, 0.062);
+}
+.memory {
+  color: hsl(39, 100%, 56%);
+
+  background-color: hsla(39, 100%, 56%, 0.062);
+}
+.verbal {
+  color: hsl(166, 100%, 37%);
+
+  background-color: hsla(166, 100%, 37%, 0.062);
+}
+.visual {
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.062);
+}
+.visual,
+.verbal,
+.memory,
+.reaction {
+  font-weight: 700;
+  display: flex;
+  width: 190px;
+  height: 40px;
+  border-radius: 7px;
+  align-items: center;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top: 12px;
+  font-size: 12px;
+
+}
+
+.btn {
+  cursor: pointer;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  width: 220px;
+  height: 38px;
+  border-radius: 27px;
+  border: none;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  margin-top: 20px;
+}
+.btn:hover {
+  background-image: none;
+  background-color: hsl(224, 30%, 27%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
